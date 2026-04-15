@@ -1,0 +1,22 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editor config
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Python cache (if you add example scripts)
+__pycache__/
+*.pyc
+
+# No secrets - but keep this pattern to be safe
+.env
+*.secret
