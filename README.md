@@ -19,7 +19,6 @@ Designed for security engineers, bug bounty hunters, and DevSecOps teams conduct
 |------|-------------|
 | [`PLAYBOOK.md`](PLAYBOOK.md) | Main playbook: threat models, test payloads, detection signals, and mitigations |
 | [`SOURCES.md`](SOURCES.md) | Verified references for all technical claims |
-| [`CHECKLISTS.md`](CHECKLISTS.md) | Defensive testing checklists (ID-based) for manual assessments |
 | [`examples/`](examples/) | Standalone YAML/Groovy/Python payload examples |
 
 ## Flaw Categories Covered
