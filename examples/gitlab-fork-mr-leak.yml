@@ -1,1 +1,11 @@
+# Test: Fork MR Variable Leakage (V-01)
+# Place in fork's .gitlab-ci.yml, create MR to upstream protected branch
 
+test-leak:
+  script:
+    - echo "Testing protected variable exposure"
+    - echo "SECRET: $PROTECTED_VAR"
+    - env | grep -i "secret\|token\|key"
+    - |
+      curl -s -H "JOB-TOKEN: $CI_JOB_TOKEN" \
+        "$CI_API_V4_URL/projects/$CI_PROJECT_ID/variables" || echo "API call blocked (good)"
