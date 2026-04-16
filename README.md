@@ -1,7 +1,9 @@
-# CI/CD Security Playbook
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
+[![Project Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/CY2YC/ci-cd-security-playbook)
+[![Last Commit](https://img.shields.io/github/last-commit/yourusername/ci-cd-security-playbook)](https://github.com/CY2YC/ci-cd-security-playbook/commits/main)
 
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-April%202026-blue)]()
+
+# CI/CD Security Playbook
 
 ## Overview
 
