@@ -62,10 +62,5 @@ Found an error or have an addition? Open an issue or pull request with:
 - Supporting evidence (docs, CVE references)
 - Verified test case (if applicable)
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/ci-cd-security-playbook&type=Date)](https://star-history.com/#YOUR_USERNAME/ci-cd-security-playbook&Date)
-
 ---
-
-*Maintained by [Your Name/Organization]*
+*Maintained by CY2YC*
