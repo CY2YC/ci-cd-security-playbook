@@ -1,4 +1,3 @@
-```markdown
 # CI/CD Security Playbook: Defending Against Pipeline-Based Attacks
 
 **Version:** 1.0
@@ -57,7 +56,7 @@ When a merge request (MR) originates from a fork, GitLab can run a pipeline in t
    ```yaml
    leak:
      script: echo "Deploy key: $DEPLOY_KEY"
-```
+
 
 1. If variable injection is allowed, secret appears in job logs.
 
