@@ -1,2 +1,71 @@
-# ci-cd-security-playbook
-Defensive playbook for CI/CD security flaws across GitLab, GitHub Actions, CircleCI, and Jenkins. Includes detection engineering rules and testing checklists.
+# CI/CD Security Playbook
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-April%202026-blue)]()
+
+## Overview
+
+A comprehensive defensive playbook covering **8 CI/CD flaw categories** across:
+- **GitLab CI/CD**
+- **GitHub Actions**
+- **CircleCI**
+- **Jenkins**
+
+Designed for security engineers, bug bounty hunters, and DevSecOps teams conducting authorized testing.
+
+## What's Inside
+
+| File | Description |
+|------|-------------|
+| [`PLAYBOOK.md`](PLAYBOOK.md) | Main playbook: threat models, test payloads, detection signals, and mitigations |
+| [`SOURCES.md`](SOURCES.md) | Verified references for all technical claims |
+| [`CHECKLISTS.md`](CHECKLISTS.md) | Defensive testing checklists (ID-based) for manual assessments |
+| [`examples/`](examples/) | Standalone YAML/Groovy/Python payload examples |
+
+## Flaw Categories Covered
+
+1. Fork MR Variable Leakage
+2. Runner-Tag Misbinding
+3. Group Variable Inheritance
+4. Webhook Signature Flaws
+5. Artifact Poisoning
+6. Trigger Token Leakage
+7. OAuth/SSO Misbinding
+8. Jenkins Sandbox Bypass & Plugin Vulnerabilities
+
+## Detection Engineering
+
+Includes ready-to-use detection rules for:
+- Splunk SPL queries
+- Elastic/Kibana JSON rules
+- Sigma YAML rules
+- SQL queries for log analysis
+
+## ⚠️ Disclaimer
+
+**For authorized security testing and educational purposes only.**
+
+Do not use these techniques on any system without explicit written permission. Unauthorized testing is illegal and violates platform terms of service.
+
+## License
+
+This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+- **Attribution Required** — Cite this repository
+- **Non-Commercial** — No commercial use without permission
+- **ShareAlike** — Derivatives must use same license
+
+## Contributing
+
+Found an error or have an addition? Open an issue or pull request with:
+- Clear description of the change
+- Supporting evidence (docs, CVE references)
+- Verified test case (if applicable)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/ci-cd-security-playbook&type=Date)](https://star-history.com/#YOUR_USERNAME/ci-cd-security-playbook&Date)
+
+---
+
+*Maintained by [Your Name/Organization]*
